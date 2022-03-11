@@ -8,5 +8,6 @@ public interface StudentService {
 	public String deleteStudentId(int id);
 	public String deleteByStudentName(String sname);
 	public String updateStudentById(int id);
+	public String viewAllStudents();
 	
 }
